@@ -24,5 +24,4 @@ export class Block extends Model<BlockAttributes> {
 
   @Column(DataType.STRING)
   anchor!: string;
-  //
 }
